@@ -1,0 +1,23 @@
+{
+  "name": "NewID",
+  "version": "Don't Ready For Use",
+  "description": "New Bot By R4dar and CpryX Team & YalcnK",
+  "main": "Kernel.js",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node Kernel.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Saurien/New-Bot.git"
+  },
+  "author": "Saurien (Aka R4dar) and CpryX Team & YalcnK",
+  "license": "",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
