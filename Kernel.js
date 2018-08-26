@@ -83,7 +83,7 @@ NewID.unload = command => {
 
 function NewIdGameAndStatus() {
   let status = [
-    ` New Bot Dont Ready For Use ` // New Bot Game
+    ` Release 0.0.2 ` // New Bot Game
     ];
     let NewIdGameAndStatus1 = Math.floor(Math.random() * status.length);
 

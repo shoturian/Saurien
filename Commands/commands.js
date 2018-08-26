@@ -30,7 +30,7 @@ exports.run = (NewID, message, params) => {
 			  {
 				name: ":gear: **Bot Commands**",
 				inline: true,
-				value: `${prefix}commands\n${prefix}releaseNotes`
+				value: `${prefix}commands\n${prefix}releaseNotes\n${prefix}botStatus\n${prefix}botDevlopers`
 			  },
 			  {
                 name: ":tada: **Fun Commands**",
