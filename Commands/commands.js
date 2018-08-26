@@ -34,7 +34,7 @@ exports.run = (NewID, message, params) => {
               },
               {
                 name: "Release",
-                value: `${release}`
+                value: `v${release}`
               }
             ],
             timestamp: new Date(),

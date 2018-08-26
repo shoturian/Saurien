@@ -3,17 +3,17 @@
 //Don't Ready For Use
 
 const chalk = require('chalk');
-const kernel = require("../kernel.json");
+const token = require("../token.json");
  const Discord = require('discord.js');
 module.exports = message => {
     if (message.author.bot) return;
-    if (!message.content.startsWith(kernel.prefix)) return;
+    if (!message.content.startsWith(token.prefix)) return;
     
     const NewID = message.client;
 
 
     let command = message.content.split(" ")[0];
-    command = command.slice(kernel.prefix.length);
+    command = command.slice(token.prefix.length);
 	
 	let params = message.content.split(' ').slice(1);
 	

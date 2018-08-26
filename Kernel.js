@@ -9,8 +9,6 @@ const chalk = require('chalk');
 const fs = require('fs');
 const moment = require('moment');
 require('./Console/Kernel.js')(NewID);
-    const DBL = require("dblapi.js");
-    const dbl = new DBL(process.env.DBL_TOKEN, NewID);
 
 var prefix = token.prefix;
 var dev = token.dev;
@@ -87,13 +85,10 @@ function NewIdGameAndStatus() {
   let status = [
     ` New Bot Dont Ready For Use ` // New Bot Game
     ];
-    let NewIdGameAndStatus = Math.floor(Math.random() * status.length);
+    let NewIdGameAndStatus1 = Math.floor(Math.random() * status.length);
 
-    NewID.user.setActivity(status[NewIdGameAndStatus], {type: "WATCHING"}); // New Bot Status
+    NewID.user.setActivity(status[NewIdGameAndStatus1], {type: "WATCHING"}); // New Bot Status
     }; setInterval(NewIdGameAndStatus, 5600)
-       setInterval(() => {
-	   dbl.postStats(NewID.guilds.size)
-       }, 1800000);
 
 //Reply Fliter
 NewID.on('message', msg => {
@@ -128,4 +123,4 @@ NewID.elevation = message => {
   return permlvl;
 };
 
-NewID.login(kernel.token);
+NewID.login(token.token);
