@@ -1,6 +1,6 @@
 //New Bot
 //
-//Don't Ready For Use
+//by Saurien (aka R4dar) and CpryX Team & YalcnK
 
 const reqEvent = (event) => require(`../Console/${event}`);
 module.exports = NewID => {

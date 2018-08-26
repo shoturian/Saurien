@@ -1,6 +1,6 @@
 //New Bot
 //
-//Don't Ready For Use
+//by Saurien (aka R4dar) and CpryX Team & YalcnK
 
 const Discord = require('discord.js');
 const token = require('../token.json');
@@ -25,7 +25,12 @@ exports.run = (NewID, message, params) => {
 				{
                 name: ":book: **Personal Commands**",
 				inline: true,
-                value: `${prefix}commands`
+                value: `Soon Stay On Track ;)`
+			  },
+			  {
+				name: ":gear: **Bot Commands**",
+				inline: true,
+				value: `${prefix}commands\n${prefix}releaseNotes`
 			  },
 			  {
                 name: ":tada: **Fun Commands**",

@@ -1,6 +1,6 @@
-//New Bot 
+//New Bot
 //
-//Don't Ready For Use
+//by Saurien (aka R4dar) and CpryX Team & YalcnK
 
 const Discord = require('discord.js');
 const NewID = new Discord.Client();

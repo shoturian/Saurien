@@ -1,6 +1,6 @@
 //New Bot
 //
-//Don't Ready For Use
+//by Saurien (aka R4dar) and CpryX Team & YalcnK
 
 const chalk = require('chalk');
 const token = require("../token.json");
@@ -38,7 +38,7 @@ module.exports = message => {
     const Discord = require('discord.js');
     try {
         let cmdFile = require(`../Commands/${command}`);
-        cmdFile.run(NewID, message, args, args2, params, perms, kernel, Discord);
+        cmdFile.run(NewID, message, args, args2, params, perms, token, Discord);
 
     } catch(error) {
         console.log(`Command is Failed ${command}\n${error.stack}`);
