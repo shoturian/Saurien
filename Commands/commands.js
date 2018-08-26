@@ -35,7 +35,7 @@ exports.run = (NewID, message, params) => {
 			  {
                 name: ":tada: **Fun Commands**",
 				inline: true,
-                value: `Soon Stay On Track ;)`
+                value: `${prefix}dog\n${prefix}dogNames\n${prefix}cat\n${prefix}catNames`
               },
               {
                 name: "Release",
