@@ -83,7 +83,11 @@ NewID.unload = command => {
 
 function NewIdGameAndStatus() {
   let status = [
-    ` Release 0.0.3 ` // New Bot Game
+    ` Release 0.0.4 `,
+    ` Do You Need Help? +commands`,
+    ` Being Developed `,
+    ` https://github.com/Saurien/New-Bot `,
+	` Devloped by Saurien (Aka R4dar) and CpryX Team & YalcnK `   // New Bot Game
     ];
     let NewIdGameAndStatus1 = Math.floor(Math.random() * status.length);
 

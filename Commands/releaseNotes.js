@@ -16,7 +16,7 @@ exports.run = (NewID, message) => {
                     icon_url: ""
                   },
                 color: 0xD97634,
-                description: `New 4 Fun Commands (${prefix}cat, ${prefix}catNames, ${prefix}dog, ${prefix}dogNames)\nNew İnput and Output Message `
+                description: `New 3 Command (${prefix}userInformation, ${prefix}mcAchievement and ${prefix}ascii)`
               }});
 };
 
