@@ -1,6 +1,6 @@
 {
   "name": "NewID",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "New Bot By R4dar and CpryX Team & YalcnK",
   "main": "Kernel.js",
   "dependencies": {
@@ -8,8 +8,8 @@
     "chalk": "^2.4.1",
     "cat-names": "^1.0.2",
     "dog-names": "^1.0.2",
+    "figlet": "^1.2.0",
     "winston": "^2.4.2",
-    "return-deep-diff": "^0.3.0",
     "g-image-search": "^1.0.2",
     "moment": "^2.22.1"
   },

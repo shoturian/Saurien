@@ -25,17 +25,17 @@ exports.run = (NewID, message, params) => {
 				{
                 name: ":book: **Personal Commands**",
 				inline: true,
-                value: `Soon Stay On Track ;)`
+                value: `${prefix}userInformation\n${prefix}survey`
 			  },
 			  {
 				name: ":gear: **Bot Commands**",
 				inline: true,
-				value: `${prefix}commands\n${prefix}releaseNotes\n${prefix}botStatus\n${prefix}botDevlopers`
+				value: `${prefix}commands\n${prefix}releaseNotes\n${prefix}botStatus\n${prefix}botDevlopers\n${prefix}ping`
 			  },
 			  {
                 name: ":tada: **Fun Commands**",
 				inline: true,
-                value: `${prefix}dog\n${prefix}dogNames\n${prefix}cat\n${prefix}catNames`
+                value: `${prefix}dog\n${prefix}dogNames\n${prefix}cat\n${prefix}catNames\n${prefix}ascii\n${prefix}mcAchievement\n${prefix}quiz`
               },
               {
                 name: "Release",

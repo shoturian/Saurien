@@ -8,5 +8,4 @@ module.exports = NewID => {
   NewID.on('message', reqEvent('Response'));
   NewID.on('guildMemberAdd', reqEvent('ServerLoginMessage'));
   NewID.on('guildMemberRemove', reqEvent('ServerExitMessage'));
-  NewID.on('guildMemberUpdate', reqEvent('MemberUpdate'));
 };

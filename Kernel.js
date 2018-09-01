@@ -83,7 +83,7 @@ NewID.unload = command => {
 
 function NewIdGameAndStatus() {
   let status = [
-    ` Release 0.0.4 `,
+    ` Release 0.0.5 `,
     ` Do You Need Help? +commands`,
     ` Being Developed `,
     ` https://github.com/Saurien/New-Bot `,
