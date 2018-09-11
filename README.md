@@ -26,7 +26,7 @@ Before installation [Node](https://nodejs.org/en/download) and [git] (https://gi
 
 ```sh
 git clone https://github.com/Saurien/R4dar-Bot.git
-cd Glowstone
+cd R4dar-Bot
 ```
 
 ### 2. Setup
