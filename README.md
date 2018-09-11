@@ -42,7 +42,7 @@ git clone https://github.com/Saurien/R4dar-Bot.git
 cd R4dar-Bot
 ```
 
-### 2. Setup
+### 2. Edit
 
 ```sh
 - go to R4dar Bot root folder 
