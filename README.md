@@ -1,5 +1,5 @@
 ![Built with Love](https://camo.githubusercontent.com/bef1253aea8dd72392b8da01d7e24ecf190a35bc/687474703a2f2f666f7274686562616467652e636f6d2f696d616765732f6261646765732f6275696c742d776974682d6c6f76652e737667)
-[![Join the Discord chat](https://img.shields.io/badge/discord-r4darhub-738adb.svg)](https://discord.gg/tvwJVqA)
+[![Join the Discord chat](https://img.shields.io/badge/discord-r4darhub-738adb.svg)](https://discord.gg/mv2RzYW)
 [![Version](https://img.shields.io/badge/version-0.1.0%20(Release%205)-blue.svg)](https://github.com/Saurien/New-Bot/releases/tag/0.1.0)
 
 
