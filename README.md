@@ -49,7 +49,7 @@ cd R4dar-Bot
 
 - open the token.js with note++ or any text editor
 
-- change the places in the token.js (example: Your owner Id to your discord Id)
+- change the places in the token.js (example: prefix: + to prefix: r4!)
 ```
 
 ## Running
