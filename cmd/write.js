@@ -5,10 +5,10 @@
 const Discord = require('discord.js');
 
 exports.run = (r4dar, message, args) => {
-  let message = args.slice(0).join(' ');
-if (message.length < 1) return message.reply('You need to write something');
+  let write = args.slice(0).join(' ');
+if (write.length < 1) return message.reply('You need to write something');
   message.delete();
-  message.channel.send(message);
+  message.channel.send(write);
 };
 
 exports.conf = {
