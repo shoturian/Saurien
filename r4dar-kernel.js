@@ -8,7 +8,7 @@ const token = require('./token.json');
 const chalk = require('chalk');
 const fs = require('fs');
 const moment = require('moment');
-require('./console/token.js')(r4dar);
+require('./console/kernel.js')(r4dar);
 
 var prefix = token.prefix;
 var dev = token.dev;
