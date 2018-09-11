@@ -1,6 +1,6 @@
-//New Bot
+//R4dar
 //
-//by Saurien (aka R4dar) and CpryX Team & YalcnK
+//by Saurien (aka R4dar) and YalcnK
 
 const chalk = require('chalk');
 const token = require("../token.json");
@@ -9,7 +9,7 @@ module.exports = message => {
     if (message.author.bot) return;
     if (!message.content.startsWith(token.prefix)) return;
     
-    const NewID = message.client;
+    const r4dar = message.client;
 
 
     let command = message.content.split(" ")[0];
@@ -17,7 +17,7 @@ module.exports = message => {
 	
 	let params = message.content.split(' ').slice(1);
 	
-    let perms = NewID.elevation(message);
+    let perms = r4dar.elevation(message);
     
     let args = message.content.split(" ").slice(1);
 
@@ -37,8 +37,8 @@ module.exports = message => {
 }
     const Discord = require('discord.js');
     try {
-        let cmdFile = require(`../Commands/${command}`);
-        cmdFile.run(NewID, message, args, args2, params, perms, token, Discord);
+        let cmdFile = require(`../cmd/${command}`);
+        cmdFile.run(r4dar, message, args, args2, params, perms, token, Discord);
 
     } catch(error) {
         console.log(`Command is Failed ${command}\n${error.stack}`);

@@ -1,11 +1,11 @@
-//New Bot
+//R4dar
 //
-//by Saurien (aka R4dar) and CpryX Team & YalcnK
+//by Saurien (aka R4dar) and YalcnK
 
-const reqEvent = (event) => require(`../Console/${event}`);
-module.exports = NewID => {
-  NewID.on('ready', () => reqEvent('Console Log')(NewID));
-  NewID.on('message', reqEvent('Response'));
-  NewID.on('guildMemberAdd', reqEvent('ServerLoginMessage'));
-  NewID.on('guildMemberRemove', reqEvent('ServerExitMessage'));
+const reqEvent = (event) => require(`../console/${event}`);
+module.exports = r4dar => {
+  NewID.on('ready', () => reqEvent('console-log')(NewID));
+  NewID.on('message', reqEvent('response'));
+  NewID.on('guildMemberAdd', reqEvent('bot-login-message'));
+  NewID.on('guildMemberRemove', reqEvent('bot-exit-message'));
 };
