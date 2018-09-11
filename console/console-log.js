@@ -12,7 +12,7 @@ var release = token.release;
 var dev = token.dev;
 var predev = token.predev
 
-module.exports = NewID => {
+module.exports = r4dar => {
   console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] Activating The Bot!`);
   console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] Bot Activated!`);
   console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] Bot Devloper ${dev} and ${predev}`);
