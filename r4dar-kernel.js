@@ -81,18 +81,6 @@ r4dar.unload = command => {
   });
 };
 
-function r4darGameAndStatus() {
-  let status = [
-    ` Release 0.1.0 (Stable) `,
-    ` Do You Need Help? +commands`,
-    ` https://github.com/Saurien/R4dar-Bot `,
-	` Devloped by Saurien (Aka R4dar) and YalcnK `   // R4dar Game
-    ];
-    let r4darGameAndStatus1 = Math.floor(Math.random() * status.length);
-
-    r4dar.user.setActivity(status[r4darGameAndStatus1], {type: "WATCHING"}); // R4dar Status
-    }; setInterval(r4darGameAndStatus, 5600)
-
 //Reply Fliter
 r4dar.on('message', msg => {
   if (msg.content.toLowerCase() === 'hello') {
