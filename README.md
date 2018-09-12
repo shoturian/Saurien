@@ -19,18 +19,6 @@ Very Easy Usage Discord Bot
   
 - Many More
 
-## How To Change Bot Game
-
-```sh
-- go to R4dar Bot root folder
-
-- open console folder
-
-- open console-log.js with nore++ or any text editor
-
-- change the 'GAME HERE' text (example: GAME HERE to My Devloper Saurien)
-```
-
 ## Downloads
 releases can be found on [GitHub](https://github.com/Saurien/New-Bot/releases).
 
@@ -60,6 +48,18 @@ npm install
 (after installing)
 
 node r4dar-kernel
+```
+
+## How To Change Bot Game
+
+```sh
+- go to R4dar Bot root folder
+
+- open console folder
+
+- open console-log.js with [notepad++] (https://notepad-plus-plus.org/download) or any text editor
+
+- change the 'GAME HERE' text (example: GAME HERE to My Devloper Saurien)
 ```
 
 enjoy it :)
