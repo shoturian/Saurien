@@ -57,7 +57,7 @@ node r4dar-kernel
 
 - open console folder
 
-- open console-log.js with [notepad++] (https://notepad-plus-plus.org/download) or any text editor
+- open console-log.js with notepad++ or any text editor
 
 - change the 'GAME HERE' text (example: GAME HERE to My Devloper Saurien)
 ```
