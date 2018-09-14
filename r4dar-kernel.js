@@ -81,16 +81,6 @@ r4dar.unload = command => {
   });
 };
 
-function GameStatus() {
-  let status = [
-    ` Test 1 `,
-    ` Test 2 `   // Octopus Oyunu
-    ];
-    let Test = Math.floor(Math.random() * status.length);
-
-    r4dar.user.setActivity(status[Test]); // Octopus Durumu
-    }; setInterval(GameStatus, 5600)
-
 //Reply Fliter
 r4dar.on('message', msg => {
   if (msg.content.toLowerCase() === 'hello') {
