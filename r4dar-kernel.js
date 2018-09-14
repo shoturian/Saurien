@@ -83,14 +83,8 @@ r4dar.unload = command => {
 
 function GameStatus() {
   let status = [
-    ` Komut Sayfası İçin ${prefix}yardım. `,
-    ` Sürümüm: ${surum}. `,
-    ` ${surum} Yeniliklerine Bakmak İçin ${prefix}sürümNotları. `,
-    ` ${Octopus.guilds.size} Sunucuya Hizmet Vermekteyim `,
-    ` Geliştiricim ${ad} `,
-    ` Hataya Rastlarsanız ${prefix}hataRaporla `,
-    ` Önerileriniz İçin ${prefix}öner `,
-    ` ${Octopus.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString()} Kullanıcıya Hizmet Vermekteyim. ` // Octopus Oyunu
+    ` Test 1 `,
+    ` Test 2 `   // Octopus Oyunu
     ];
     let Test = Math.floor(Math.random() * status.length);
 
