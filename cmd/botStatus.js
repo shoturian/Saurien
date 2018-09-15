@@ -20,7 +20,7 @@ function timeCon(time) {
     hours = hours > 9 ? hours : "" + hours
     minutes = minutes > 9 ? minutes : "" + minutes
     seconds = seconds > 9 ? seconds : "" + seconds
-    return (parseInt(days) > 0 ? days + " Day " : " ") + (parseInt(hours) === 0 && parseInt(days) === 0 ? "" : hours + " Hour ") + minutes + " Minute " + seconds + " Second "
+    return (parseInt(days) > 0 ? days + " day " : " ") + (parseInt(hours) === 0 && parseInt(days) === 0 ? "" : hours + " hours ") + minutes + " minutes " + seconds + " seconds "
 
 exports.run = function (r4dar, message, params, cmd) {
     const Discord = require('discord.js');
