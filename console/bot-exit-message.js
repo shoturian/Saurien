@@ -2,9 +2,6 @@
 //
 //by Saurien (aka R4dar) and YalcnK
 
-const winston = require('winston')
-var logger = new (winston.Logger)({
-})
 module.exports = member => {
     let guild = member.guild;
 

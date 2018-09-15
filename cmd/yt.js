@@ -7,9 +7,7 @@ var YouTube = require('youtube-node');
 var youTube = new YouTube();
 const youtubeKey = token.yt;
 youTube.setKey(youtubeKey)
-const winston = require('winston')
-var logger = new (winston.Logger)({
-})
+
 exports.run = function (r4dar, message, args, args2, cmd) {
     const Discord = require('discord.js');
     var guild = message.guild;

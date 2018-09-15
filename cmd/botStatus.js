@@ -21,11 +21,7 @@ function timeCon(time) {
     minutes = minutes > 9 ? minutes : "" + minutes
     seconds = seconds > 9 ? seconds : "" + seconds
     return (parseInt(days) > 0 ? days + " Day " : " ") + (parseInt(hours) === 0 && parseInt(days) === 0 ? "" : hours + " Hour ") + minutes + " Minute " + seconds + " Second "
-}
-const winston = require('winston')
-var logger = new (winston.Logger)({
-})
-
+	
 exports.run = function (r4dar, message, params, cmd) {
     const Discord = require('discord.js');
     const token = require("../token.json");

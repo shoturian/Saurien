@@ -6,10 +6,7 @@ function getRandomIntInclusive(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min + 1)) + min;
-}
-const winston = require('winston')
-var logger = new (winston.Logger)({
-})
+
 exports.run = function (r4dar, message, args, args2, cmd) {
     const Discord = require('discord.js');
     const token = require("../token.json");

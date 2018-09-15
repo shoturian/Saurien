@@ -2,8 +2,6 @@
 //
 //by Saurien (aka R4dar) and YalcnK
 
-const winston = require('winston')
-
 module.exports = member => {
     let guild = member.guild;
 
