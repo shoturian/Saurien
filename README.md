@@ -8,7 +8,7 @@
 <img align="right" alt="From Turkey" width="100" src="./data/logo/turkey.png">
 <img align="right" alt="R4dar Bot" width="200" src="./data/logo/logo.png">
 
-# R4dar Bot
+# R4dar
 
 Very Easy Usage Discord Bot 
 
