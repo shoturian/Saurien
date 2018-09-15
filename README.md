@@ -69,6 +69,7 @@ enjoy it :)
 ## Note
 
 * Do whatever you do, do your job with love <3
+![Built with Love](https://camo.githubusercontent.com/bef1253aea8dd72392b8da01d7e24ecf190a35bc/687474703a2f2f666f7274686562616467652e636f6d2f696d616765732f6261646765732f6275696c742d776974682d6c6f76652e737667)
 
 ## Credits
 
