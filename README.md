@@ -66,6 +66,10 @@ node r4dar-kernel
 
 enjoy it :)
 
+## Note
+
+* Do whatever you do, do your job with love <3
+
 ## Credits
 
  * YalcnK (Helped translate R4dar Bot)
