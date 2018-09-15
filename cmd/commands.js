@@ -30,7 +30,7 @@ exports.run = (r4dar, message, params) => {
 			  {
 				name: ":gear: **Bot Commands**",
 				inline: true,
-				value: `${prefix}commands\n${prefix}releaseNotes\n${prefix}botStatus\n${prefix}botDevlopers\n${prefix}ping\n${prefix}ourServices\n${prefix}write`
+				value: `${prefix}commands\n${prefix}releaseNotes\n${prefix}botStatus\n${prefix}botDevlopers\n${prefix}ping\n${prefix}ourServices\n${prefix}write\n**[NEW]** ${prefix}notice\n**[NEW]** ${prefix}supportServer`
 			  },
 			  {
                 name: ":tada: **Fun Commands**",
