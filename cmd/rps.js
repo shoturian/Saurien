@@ -1,6 +1,6 @@
 //R4dar
 //
-//by Saurien (aka R4dar) and YalcnK
+//by Saurien and YalcnK
 
 function getRandomIntInclusive(min, max) {
     min = Math.ceil(min);

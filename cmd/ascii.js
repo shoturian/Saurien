@@ -1,6 +1,6 @@
 //R4dar
 //
-//by Saurien (aka R4dar) and YalcnK
+//by Saurien and YalcnK
 
 const Discord = require('discord.js');
 const figlet = require('figlet');

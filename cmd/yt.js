@@ -1,6 +1,6 @@
 //R4dar
 //
-//by Saurien (aka R4dar) and YalcnK
+//by Saurien and YalcnK
 
 const token = require("../token.json");
 var YouTube = require('youtube-node');

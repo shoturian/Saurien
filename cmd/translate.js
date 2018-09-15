@@ -1,6 +1,6 @@
-//Octopus by R4dar
+//R4dar
 //
-//v2
+//by Saurien and YalcnK
 
 const Discord = require('discord.js');
 const translate = require('google-translate-api');
