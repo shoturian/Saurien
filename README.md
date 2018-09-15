@@ -5,7 +5,7 @@
 ![From Turkey](https://img.shields.io/badge/from-Turkey-red.svg)
 
 
-<img align="top" alt="From Turkey" width="100" src="./data/logo/turkey.png">
+<img align="right" alt="From Turkey" width="100" src="./data/logo/turkey.png">
 <img align="right" alt="R4dar Bot" width="150" src="./data/logo/logo.png">
 
 # R4dar Bot
