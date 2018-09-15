@@ -2,8 +2,10 @@
 [![Join the Discord chat](https://img.shields.io/badge/discord-r4darhub-738adb.svg)](https://discord.gg/mv2RzYW)
 [![Version](https://img.shields.io/badge/version-0.1.2%20(Release%207)-red.svg)](https://github.com/Saurien/New-Bot/releases/tag/0.1.2)
 [![Build Status](https://travis-ci.org/Saurien/R4dar-Bot.svg?branch=master)](https://travis-ci.org/Saurien/R4dar-Bot)
+[![From Turkey] (https://img.shields.io/badge/from-Turkey-red.svg)
 
 
+<img align="left" alt="From Turkey" width="200" src="./data/logo/turkey.png">
 <img align="right" alt="R4dar Bot" width="200" src="./data/logo/logo.png">
 
 # R4dar Bot
