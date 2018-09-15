@@ -20,7 +20,7 @@ let member = message.guild.member(message.mentions.users.first());
 
 exports.conf = {
   enabled: true,
-  guildOnly: false,
+  guildOnly: true,
   aliases: [],
   permLevel: 0
 };

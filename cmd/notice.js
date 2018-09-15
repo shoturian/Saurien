@@ -19,9 +19,9 @@ exports.run = (r4dar, message, args) => {
 
 exports.conf = {
   enabled: true,
-  guildOnly: false,
+  guildOnly: true,
   aliases: [],
-  permLevel: 0
+  permLevel: 3
 };
 
 exports.help = {
