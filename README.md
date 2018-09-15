@@ -75,7 +75,7 @@ enjoy it :)
 
  * YalcnK (Helped translate R4dar Bot)
  
- * Saurien (aka. R4dar) (Main Devloper)
+ * Saurien (Main Devloper)
 
 ## Copyright
 
