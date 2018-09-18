@@ -44,7 +44,7 @@ exports.run = (r4dar, message, params) => {
             ],
             timestamp: new Date(),
             footer: {
-              text: `New Commands Comming Soon`
+              text: `New command page coming soon !`
             }
           }
         });  
