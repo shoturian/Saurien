@@ -1,7 +1,7 @@
 ![Built with Love](https://camo.githubusercontent.com/bef1253aea8dd72392b8da01d7e24ecf190a35bc/687474703a2f2f666f7274686562616467652e636f6d2f696d616765732f6261646765732f6275696c742d776974682d6c6f76652e737667)
 [![Join the Discord chat](https://img.shields.io/badge/discord-r4darhub-738adb.svg)](https://discord.gg/mv2RzYW)
 [![Version](https://img.shields.io/badge/version-0.1.2%20(Release%207)-red.svg)](https://github.com/Saurien/New-Bot/releases/tag/0.1.2)
-[![Build Status](https://travis-ci.org/Saurien/R4dar-Bot.svg?branch=master)](https://travis-ci.org/Saurien/R4dar-Bot)
+[![Build Status](https://travis-ci.org/Saurien/R4dar.svg?branch=master)](https://travis-ci.org/Saurien/R4dar)
 ![From Turkey](https://img.shields.io/badge/from-Turkey-red.svg)
 
 
@@ -22,20 +22,20 @@ Very Easy Usage Discord Bot
 - Many More
 
 ## Downloads
-releases can be found on [GitHub](https://github.com/Saurien/New-Bot/releases).
+releases can be found on [GitHub](https://github.com/Saurien/R4dar/releases).
 
 ### 1. Setup
 Before installation [Node](https://nodejs.org/en/download) and [git](https://git-scm.com/downloads)
 
 ```sh
-git clone https://github.com/Saurien/R4dar-Bot.git
-cd R4dar-Bot
+git clone https://github.com/Saurien/R4dar.git
+cd R4dar
 ```
 
 ### 2. Edit
 
 ```sh
-- go to R4dar Bot root folder 
+- go to R4dar root folder 
 
 - open the token.js with note++ or any text editor
 
@@ -55,7 +55,7 @@ node r4dar-kernel
 ## How To Change Bot Game
 
 ```sh
-- go to R4dar Bot root folder
+- go to R4dar root folder
 
 - open console folder
 
@@ -79,5 +79,5 @@ enjoy it :)
 
 ## Copyright
 
-R4dar bot is open-source software released under the MIT license. Please see
+R4dar is open-source software released under the MIT license. Please see
 the `LICENSE` file for details.
