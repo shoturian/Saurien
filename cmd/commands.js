@@ -30,12 +30,12 @@ exports.run = (r4dar, message, params) => {
 			  {
 				name: ":gear: **Bot Commands**",
 				inline: true,
-				value: `${prefix}commands\n${prefix}releaseNotes\n${prefix}botStatus\n${prefix}botDevlopers\n${prefix}ping\n${prefix}ourServices\n${prefix}write\n**[NEW]** ${prefix}notice\n**[NEW]** ${prefix}supportServer`
+				value: `${prefix}commands\n${prefix}releaseNotes\n${prefix}botStatus\n${prefix}botDevlopers\n${prefix}ping\n${prefix}ourServices\n${prefix}write\n${prefix}notice\n${prefix}supportServer\n**[NEW]** ${prefix}textClean`
 			  },
 			  {
                 name: ":tada: **Fun Commands**",
 				inline: true,
-                value: `${prefix}dog\n${prefix}dogNames\n${prefix}cat\n${prefix}catNames\n${prefix}ascii\n${prefix}mcAchievement\n${prefix}quiz\n${prefix}punch\n${prefix}rps\n${prefix}run\n${prefix}slap\n${prefix}throwHammer\n${prefix}twerk`
+                value: `${prefix}dog\n${prefix}dogNames\n${prefix}cat\n${prefix}catNames\n${prefix}ascii\n${prefix}mcAchievement\n${prefix}quiz\n${prefix}punch\n${prefix}rps\n${prefix}run\n${prefix}slap\n${prefix}throwHammer\n${prefix}twerk\n**[NEW]** ${prefix}luckWheel`
               },
               {
                 name: "Release",

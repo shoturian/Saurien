@@ -4,7 +4,7 @@
 
 const Discord = require("discord.js");
 
-module.exports.run = async (Octopus, message, args) => {
+module.exports.run = async (r4dar, message, args) => {
   let slots = ["🍎",  "🍌", "🍒", "🍓", "🍈"];
   let result1 = Math.floor((Math.random() * slots.length));
   let result2 = Math.floor((Math.random() * slots.length));
