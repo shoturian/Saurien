@@ -9,7 +9,7 @@ const token = require('../token.json');
 var dev = token.dev
 var predev = token.predev
 
-exports.run = (NewID, message) => {
+exports.run = (r4dar, message) => {
   if (message.channel.type !== 'dm') {
     const DrectMessage = new Discord.RichEmbed()
     .setColor(0x00AE86)

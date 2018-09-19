@@ -35,7 +35,7 @@ exports.run = (r4dar, message, params) => {
 			  {
                 name: ":tada: **Fun Commands**",
 				inline: true,
-                value: `${prefix}dog\n${prefix}dogNames\n${prefix}cat\n${prefix}catNames\n${prefix}ascii\n${prefix}mcAchievement\n${prefix}quiz\n${prefix}punch\n${prefix}rps\n${prefix}run\n${prefix}slap\n${prefix}throwHammer\n${prefix}twerk\n**[NEW]** ${prefix}luckWheel`
+                value: `${prefix}dog\n${prefix}dogNames\n${prefix}cat\n${prefix}catNames\n${prefix}ascii\n${prefix}mcAchievement\n${prefix}quiz\n${prefix}punch\n${prefix}rps\n${prefix}slap\n${prefix}throwHammer\n${prefix}twerk\n**[NEW]** ${prefix}luckWheel`
               },
               {
                 name: "Release",

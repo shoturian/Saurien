@@ -12,7 +12,7 @@ exports.run = (r4dar, message) => {
       embed.addField(`Server name: **${guild.name}** || Number of members : **${guild.memberCount}**`, guild.id);
       embed.setColor('#D97634')
       embed.setTitle('Our services')
-      embed.setDescription(`I am serving **${Octopus.guilds.size}** server in Discord`)
+      embed.setDescription(`I am serving **${r4dar.guilds.size}** server in Discord`)
     }
     message.channel.send({embed: embed});
   }
