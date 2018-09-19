@@ -1,6 +1,6 @@
 {
   "name": "R4dar",
-  "version": "0.1.2",
+  "version": "0.1.2-hf1",
   "description": "R4dar Bot by Saurien and YalcnK",
   "main": "Kernel.js",
   "dependencies": {

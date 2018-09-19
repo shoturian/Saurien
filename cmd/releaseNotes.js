@@ -16,7 +16,7 @@ exports.run = (r4dar, message) => {
                     icon_url: ""
                   },
                 color: 0xD97634,
-                description: `New 2 commands (${prefix}notice, ${prefix}supportServer) and some enhancements`
+                description: `General bugs fixed`
               }});
 };
 
