@@ -1,5 +1,5 @@
 [![Version](https://img.shields.io/badge/Version-0.1.3%20Release%208-orange.svg)](https://github.com/Radiaction/Saurien/releases/tag/0.1.3)
-[![Build Status](https://travis-ci.org/Saurien/R4dar.svg?branch=master)](https://travis-ci.org/Saurien/R4dar)
+[![Build Status](https://travis-ci.org/Radiaction/Saurien.svg?branch=master)](https://travis-ci.org/Radiaction/Saurien)
 ![From Turkey](https://img.shields.io/badge/from-Turkey-red.svg)
 
 
