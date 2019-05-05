@@ -35,9 +35,9 @@ cd Saurien
 ```sh
 - go to Saurien root folder 
 
-- open the ıd.js with note++ or any text editor
+- open the id.js with note++ or any text editor
 
-- change the places in the ıd.js (example: prefix: # to prefix: +)
+- change the places in the id.js (example: prefix: # to prefix: +)
 ```
 
 ## Running
