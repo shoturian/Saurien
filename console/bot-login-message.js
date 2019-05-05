@@ -1,6 +1,6 @@
-//R4dar
-//
-//by Saurien (aka R4dar) and YalcnK
+//Saurien is a easy usage discord bot
+//This file updated in 05.05.2019
+//by Radiaction
 
 module.exports = member => {
     let guild = member.guild;

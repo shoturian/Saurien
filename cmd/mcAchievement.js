@@ -1,10 +1,10 @@
-//R4dar
-//
-//by Saurien and YalcnK
+//Saurien is a easy usage discord bot
+//This file updated in 05.05.2019
+//by Radiaction
 
 const snekfetch = require('snekfetch');
 
-exports.run = (r4dar, msg, args) => {
+exports.run = (Saurien, msg, args) => {
   let [title, contents] = args.join(" ").split("|");
   if(!contents) {
     [title, contents] = ["New Achievement!", title];

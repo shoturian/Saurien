@@ -1,13 +1,13 @@
-//R4dar
-//
-//by Saurien and YalcnK
+//Saurien is a easy usage discord bot
+//This file updated in 05.05.2019
+//by Radiaction
 
 const Discord = require('discord.js');
-const token = require('../token.json');
-const r4dar = new Discord.Client();
-var invite = token.invite
+const id = require('../id.json');
+const Saurien = new Discord.Client();
+var invite = id.invite
 
-exports.run = (r4dar, message) => {
+exports.run = (Saurien, message) => {
   if (message.channel.type !== 'dm') {
     const invite = new Discord.RichEmbed()
     .setColor(0xD97634)

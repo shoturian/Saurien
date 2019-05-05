@@ -1,10 +1,10 @@
-//R4dar
-//
-//by Saurien and YalcnK
+//Saurien is a easy usage discord bot
+//This file updated in 05.05.2019
+//by Radiaction
 
 const Discord = require('discord.js');
 
-exports.run = (r4dar, message, args) => {
+exports.run = (Saurien, message, args) => {
 let member = message.guild.member(message.mentions.users.first());
     if (!args[0]){
       return message.channel.sendMessage('[:x:] | **You must write whom I will slap**');

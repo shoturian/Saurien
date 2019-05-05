@@ -1,17 +1,17 @@
-//R4dar
-//
-//by Saurien and YalcnK
+//Saurien is a easy usage discord bot
+//This file updated in 05.05.2019
+//by Radiaction
 
 const Discord = require('discord.js');
 
-exports.run = (r4dar, message, params) => {
+exports.run = (Saurien, message, params) => {
 
 	if (!message.guild) {
     const warning = new Discord.RichEmbed()
     .setColor(0xFF0000)
     .setTimestamp()
     .setAuthor(message.author.username, message.author.avatarURL)
-    .addField(':warning: Warning :warning:', 'you can not use the command `serverInfo` in private messages')
+    .addField(':warning: Warning :warning:', 'You can not use the command `serverInfo` in private messages')
     return message.author.sendEmbed(warning); }
     if (message.channel.type !== 'dm') {
       const server = new Discord.RichEmbed()

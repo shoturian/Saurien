@@ -1,23 +1,23 @@
-//R4dar
-//
-//by Saurien and YalcnK
+//Saurien is a easy usage discord bot
+//This file updated in 05.05.2019
+//by Radiaction
 
 const Discord = require('discord.js');
-const token = require('../token.json');
+const id = require('../id.json');
 
-exports.run = (r4dar, message, params) => {
+exports.run = (Saurien, message, params) => {
     if (message.channel.type !== "group") {
-        var Durum = message.author.presence.status;
-        var Durm = (Durum == "online" ? (0xD97634) : (Durum == "offline" ? (0xD97634) : (Durum == "idle" ? (0xD97634) : (Durum == "dnd" ? (0xD97634) : (0xD97634)))))
-        var durm = (Durum == "online" ? ("Online") : (Durum == "offline" ? ("Offline") : (Durum == "idle" ? ("Idle") : (Durum == "dnd" ? ("Do Not Bother") : ("Not Found.")))))
+        var Status = message.author.presence.status;
+        var stat1 = (Status == "online" ? (0xD97634) : (Status == "offline" ? (0xD97634) : (Status == "idle" ? (0xD97634) : (Status == "dnd" ? (0xD97634) : (0xD97634)))))
+        var stat2 = (Status == "online" ? ("Online") : (Status == "offline" ? ("Offline") : (Status == "idle" ? ("Idle") : (Status == "dnd" ? ("Do Not Bother") : ("Not Found.")))))
       const Info = new Discord.RichEmbed()
-      .setAuthor(r4dar.user.username, r4dar.user.avatarURL)
-      .setColor(Durm)
+      .setAuthor(Saurien.user.username, Saurien.user.avatarURL)
+      .setColor(stat1)
       .setTimestamp()
       .addField('Your Name:', message.author.username + '#' + message.author.discriminator)
       .addField('Your ID:', message.author.id)
       .addField('Sign Date:', message.author.createdAt)
-      .addField('Status:', durm)
+      .addField('Status:', stat1)
       .addField('The Game You Played:', message.author.presence.game ? message.author.presence.game.name : 'You Are Not Playing Games')
       .addField('You Are Bot?', message.author.bot ? '\n Yes' : 'No')
       console.log("userInformation Commands Used By" + message.author.username)

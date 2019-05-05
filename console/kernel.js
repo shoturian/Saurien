@@ -1,11 +1,11 @@
-//R4dar
-//
-//by Saurien (aka R4dar) and YalcnK
+//Saurien is a easy usage discord bot
+//This file updated in 05.05.2019
+//by Radiaction
 
 const reqEvent = (event) => require(`../console/${event}`);
-module.exports = r4dar => {
-  r4dar.on('ready', () => reqEvent('console-log')(r4dar));
-  r4dar.on('message', reqEvent('response'));
-  r4dar.on('guildMemberAdd', reqEvent('bot-login-message'));
-  r4dar.on('guildMemberRemove', reqEvent('bot-exit-message'));
+module.exports = Saurien => {
+  Saurien.on('ready', () => reqEvent('console-log')(Saurien));
+  Saurien.on('message', reqEvent('response'));
+  Saurien.on('guildMemberAdd', reqEvent('bot-login-message'));
+  Saurien.on('guildMemberRemove', reqEvent('bot-exit-message'));
 };

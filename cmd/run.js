@@ -1,10 +1,10 @@
-//R4dar
-//
-//by Saurien and YalcnK
+//Saurien is a easy usage discord bot
+//This file updated in 05.05.2019
+//by Radiaction
 
 const Discord = require('discord.js');
 
-exports.run = (r4dar, message, params) => {
+exports.run = (Saurien, message, params) => {
 	if (!message.guild) {
     const run = new Discord.RichEmbed()
     .setAuthor(message.author.username + ' Run! Run! Run!')

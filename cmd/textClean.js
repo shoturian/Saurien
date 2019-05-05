@@ -1,17 +1,17 @@
-//R4dar
-//
-//by Saurien and YalcnK
+//Saurien is a easy usage discord bot
+//This file updated in 05.05.2019
+//by Radiaction
 
 const Discord = require('discord.js');
-exports.run = function(r4dar, message, args) {
+exports.run = function(Saurien, message, args) {
   if (!message.guild) {
   const warning = new Discord.RichEmbed()
   .setColor(0xD97634)
   .setTimestamp()
   .setAuthor(message.author.username, message.author.avatarURL)
-  .addField(':warning: Warning :warning:', 'you can not use the command `textClean` in private messages')
+  .addField(':warning: Warning :warning:', 'You can not use the command `textClean` in private messages')
   return message.author.sendEmbed(warning); }
-  if (!message.guild.member(r4dar.user).hasPermission("MANAGE_MESSAGES")) {
+  if (!message.guild.member(Saurien.user).hasPermission("MANAGE_MESSAGES")) {
 	const perm = new Discord.RichEmbed()
     .setColor(0xD97634)
     .setTimestamp()

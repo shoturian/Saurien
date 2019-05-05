@@ -1,23 +1,23 @@
-//R4dar
-//
-//by Saurien (aka R4dar) and YalcnK
+//Saurien is a easy usage discord bot
+//This file updated in 05.05.2019
+//by Radiaction
 
 const chalk = require('chalk');
-const token = require("../token.json");
+const id = require("../id.json");
  const Discord = require('discord.js');
 module.exports = message => {
     if (message.author.bot) return;
-    if (!message.content.startsWith(token.prefix)) return;
-    
-    const r4dar = message.client;
+    if (!message.content.startsWith(id.prefix)) return;
+
+    const Saurien = message.client;
 
 
     let command = message.content.split(" ")[0];
-    command = command.slice(token.prefix.length);
+    command = command.slice(id.prefix.length);
 	
 	let params = message.content.split(' ').slice(1);
 	
-    let perms = r4dar.elevation(message);
+	let perms = Saurien.elevation(message);
     
     let args = message.content.split(" ").slice(1);
 
@@ -38,7 +38,7 @@ module.exports = message => {
     const Discord = require('discord.js');
     try {
         let cmdFile = require(`../cmd/${command}`);
-        cmdFile.run(r4dar, message, args, args2, params, perms, token, Discord);
+        cmdFile.run(Saurien, message, args, args2, params, perms, id, Discord);
 
     } catch(error) {
         console.log(`Command is Failed ${command}\n${error.stack}`);

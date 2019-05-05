@@ -1,11 +1,11 @@
-//R4dar
-//
-//by Saurien and YalcnK
+//Saurien is a easy usage discord bot
+//This file updated in 05.05.2019
+//by Radiaction
 
 const Discord = require('discord.js');
-const r4dar = new Discord.Client();
+const Saurien = new Discord.Client();
 
-exports.run = (r4dar, message) => {
+exports.run = (Saurien, message) => {
  message.channel.send({embed: {
 		  file:"https://78.media.tumblr.com/be43242341a7be9d50bb2ff8965abf61/tumblr_o1ximcnp1I1qf84u9o1_500.gif",
           color: 0xD97634,

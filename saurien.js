@@ -1,47 +1,47 @@
-//R4dar
-//
-//by Saurien (aka R4dar) and YalcnK
+//Saurien is a easy usage discord bot
+//This file updated in 05.05.2019
+//by Radiaction
 
 const Discord = require('discord.js');
-const r4dar = new Discord.Client();
-const token = require('./token.json');
+const Saurien = new Discord.Client();
+const id = require('./id.json');
 const chalk = require('chalk');
 const fs = require('fs');
 const moment = require('moment');
-require('./console/kernel.js')(r4dar);
+require('./console/kernel.js')(Saurien);
 
-var prefix = token.prefix;
-var dev = token.dev;
-var release = token.release;
+var prefix = id.prefix;
+var devloper = id.devloper;
+var release = id.release;
 
 const log = message => {
   console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] ${message}`);
 };
 
-r4dar.commands = new Discord.Collection();
-r4dar.aliases = new Discord.Collection();
+Saurien.commands = new Discord.Collection();
+Saurien.aliases = new Discord.Collection();
 fs.readdir('./cmd/', (err, files) => {
   if (err) console.error(err);
   log(`Commands Loading ${files.length}`);
   files.forEach(f => {
     let props = require(`./cmd/${f}`);
     log(`${props.help.name}.`);
-    r4dar.commands.set(props.help.name, props);
+    Saurien.commands.set(props.help.name, props);
   });
 });
 
-r4dar.reload = command => {
+Saurien.reload = command => {
   return new Promise((resolve, reject) => {
     try {
       delete require.cache[require.resolve(`./cmd/${command}`)];
       let cmd = require(`./cmd/${command}`);
-      r4dar.commands.delete(command);
-      r4dar.aliases.forEach((cmd, alias) => {
-        if (cmd === command) r4dar.aliases.delete(alias);
+      Saurien.commands.delete(command);
+      Saurien.aliases.forEach((cmd, alias) => {
+        if (cmd === command) Saurien.aliases.delete(alias);
       });
-      r4dar.commands.set(command, cmd);
+      Saurien.commands.set(command, cmd);
       cmd.conf.aliases.forEach(alias => {
-        r4dar.aliases.set(alias, cmd.help.name);
+        Saurien.aliases.set(alias, cmd.help.name);
       });
       resolve();
     } catch (e){
@@ -50,13 +50,13 @@ r4dar.reload = command => {
   });
 };
 
-r4dar.load = command => {
+Saurien.load = command => {
   return new Promise((resolve, reject) => {
     try {
       let cmd = require(`./cmd/${command}`);
-      r4dar.commands.set(command, cmd);
+      Saurien.commands.set(command, cmd);
       cmd.conf.aliases.forEach(alias => {
-        r4dar.aliases.set(alias, cmd.help.name);
+        Saurien.aliases.set(alias, cmd.help.name);
       });
       resolve();
     } catch (e){
@@ -65,14 +65,14 @@ r4dar.load = command => {
   });
 };
 
-r4dar.unload = command => {
+Saurien.unload = command => {
   return new Promise((resolve, reject) => {
     try {
       delete require.cache[require.resolve(`./cmd/${command}`)];
       let cmd = require(`./cmd/${command}`);
-      r4dar.commands.delete(command);
-      r4dar.aliases.forEach((cmd, alias) => {
-        if (cmd === command) r4dar.aliases.delete(alias);
+      Saurien.commands.delete(command);
+      Saurien.aliases.forEach((cmd, alias) => {
+        if (cmd === command) Saurien.aliases.delete(alias);
       });
       resolve();
     } catch (e){
@@ -82,7 +82,7 @@ r4dar.unload = command => {
 };
 
 //Reply Fliter
-r4dar.on('message', msg => {
+Saurien.on('message', msg => {
   if (msg.content.toLowerCase() === 'hello') {
     msg.reply('**hello**');
   }
@@ -99,23 +99,22 @@ r4dar.on('message', msg => {
    	msg.reply('by');
   }
   
-  if (msg.content === 'r4dar bot') {
-    msg.reply('I Am Here');
+  if (msg.content === 'saurien bot') {
+    msg.reply('I am here');
   }
   
-  if (msg.content === 'r4dar') {
-    msg.reply('I Am Here');
+  if (msg.content === 'saurien') {
+    msg.reply('I am here');
   }
   });
-
-r4dar.elevation = message => {
+  
+  Saurien.elevation = message => {
   if(!message.guild) {
 	return; }
   let permlvl = 0;
   if (message.member.hasPermission("BAN_MEMBERS")) permlvl = 2;
   if (message.member.hasPermission("ADMINISTRATOR")) permlvl = 3;
-  if (message.author.id === token.ownerıd) permlvl = 4;
   return permlvl;
 };
 
-r4dar.login(token.token);
+Saurien.login(id.saurienID);

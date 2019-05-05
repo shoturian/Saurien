@@ -1,6 +1,6 @@
-//R4dar
-//
-//by Saurien and YalcnK
+//Saurien is a easy usage discord bot
+//This file updated in 05.05.2019
+//by Radiaction
 
 function timeCon(time) {
     time = time * 1000
@@ -23,22 +23,23 @@ function timeCon(time) {
     return (parseInt(days) > 0 ? days + " day " : " ") + (parseInt(hours) === 0 && parseInt(days) === 0 ? "" : hours + " hours ") + minutes + " minutes " + seconds + " seconds "
 };
 
-exports.run = function (r4dar, message, params, cmd) {
+exports.run = function (Saurien, message, params, cmd) {
     const Discord = require('discord.js');
-    const token = require("../token.json");
+    const id = require("../id.json");
     const release = require("os")
-	var dev = token.dev
-	var predev = token.predev
+	var devloper = id.devloper
+	var coDevloper = id.coDevloper
     var guild = message.guild;
     const embed = new Discord.RichEmbed()
         .setColor('#7d5bbe')
-        .setTitle(r4dar.user.username + " Release: " + token.release + ` Status`)
-        .setDescription(r4dar.user.username + ' Active Time' + timeCon(process.uptime()))
-        .addField('🏠 Servers', r4dar.guilds.size, true)
-        .addField('📄 Channels', r4dar.channels.size, true)
-        .addField('🤵 Users', r4dar.users.size, true)
-        .addField('🏓 Bot Ping', `${(r4dar.ping).toFixed(0)} ms`, true)       
-        .addField(`:construction_worker: Devlopers`, `${dev} and ${predev}`, true)
+        .setTitle(Saurien.user.username + " Release: " + id.release + ` Status`)
+        .setDescription(Saurien.user.username + ' Active Time' + timeCon(process.uptime()))
+        .addField('🏠 Servers', Saurien.guilds.size, true)
+        .addField('📄 Channels', Saurien.channels.size, true)
+        .addField('🤵 Users', Saurien.users.size, true)
+        .addField('🏓 Bot Ping', `${(Saurien.ping).toFixed(0)} ms`, true)       
+        .addField(`:construction_worker: Devlopers`, `${devloper}`, true)
+		.addField(`:construction_worker: Co Devlopers`, `${coDevloper}`, true)
     message.channel.send({ embed: embed })
 };
 
