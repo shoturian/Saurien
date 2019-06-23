@@ -3,12 +3,11 @@
 ![From Turkey](https://img.shields.io/badge/from-Turkey-red.svg)
 
 
-<img align="right" alt="From Turkey" width="100" src="./data/logo/turkey.png">
-<img align="right" alt="Saurien" width="200" src="./data/logo/logo.png">
+<img align="right" alt="Saurien" width="350" src="./data/logo/logo.png">
 
 # Saurien
 
-Easy Usage Discord Bot 
+Easy Usage Discord Bot
 
 ## Features
 - Fully open source and developable structure
@@ -16,7 +15,7 @@ Easy Usage Discord Bot
 - There are many features
 
 - Constantly updated structure
-  
+
 - Many More
 
 ## Downloads
@@ -33,7 +32,7 @@ cd Saurien
 ### 2. Edit
 
 ```sh
-- go to Saurien root folder 
+- go to Saurien root folder
 
 - open the id.js with note++ or any text editor
 
@@ -65,7 +64,7 @@ node saurien
 enjoy it :)
 
 ## Credits
- 
+
  * Radiaction (Devloper)
 
 ## Copyright
