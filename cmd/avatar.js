@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 
 
-exports.run = function(client, message) {
+exports.run = function(Saurien, message) {
 
     const embed = new Discord.RichEmbed()
         .setAuthor(message.author.tag)
@@ -12,12 +12,12 @@ exports.run = function(client, message) {
 };
 
 exports.conf = {
-  enabled: true, 
-  guildOnly: false, 
+  enabled: true,
+  guildOnly: false,
   aliases: [ ],
-  permLevel: 0 
+  permLevel: 0
 };
 
 exports.help = {
-  name: 'avatar', 
+  name: 'avatar',
 };
