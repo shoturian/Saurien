@@ -1,6 +1,6 @@
 {
   "name": "Saurien",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Saurien is a easy usage discord bot",
   "main": "saurien.js",
   "dependencies": {

@@ -25,7 +25,7 @@ exports.run = (Saurien, message, params) => {
 				{
                 name: ":book: **Personal Commands**",
 				inline: true,
-                value: `${prefix}userInformation\n${prefix}survey\n${prefix}appeal\n${prefix}randomPassword\n${prefix}serverInfo\n${prefix}translate\n${prefix}yt`
+                value: `${prefix}userInformation\n${prefix}survey\n${prefix}appeal\n${prefix}randomPassword\n${prefix}serverInfo\n${prefix}translate\n${prefix}yt\n${prefix}avatar**(NEW)**\n${prefix}speedTest**(NEW)**`
 			  },
 			  {
 				name: ":gear: **Bot Commands**",
@@ -35,7 +35,7 @@ exports.run = (Saurien, message, params) => {
 			  {
                 name: ":tada: **Fun Commands**",
 				inline: true,
-                value: `${prefix}dogNames\n${prefix}catNames\n${prefix}ascii\n${prefix}mcAchievement\n${prefix}quiz\n${prefix}punch\n${prefix}slap\n${prefix}twerk\n${prefix}luckWheel`
+                value: `${prefix}dogNames\n${prefix}catNames\n${prefix}ascii\n${prefix}mcAchievement\n${prefix}quiz\n${prefix}punch\n${prefix}slap\n${prefix}twerk\n${prefix}luckWheel\n${prefix}headsorTails**(NEW)**`
               },
               {
                 name: "Release",
@@ -47,7 +47,7 @@ exports.run = (Saurien, message, params) => {
               text: `New command page soon.`
             }
           }
-        });  
+        });
 	    message.react("👍")
 }};
 exports.conf = {
