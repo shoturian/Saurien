@@ -1,3 +1,7 @@
+//Saurien is a easy usage discord bot
+//This file updated in 23.06.2019
+//by Radiaction
+
 const Discord = require('discord.js');
 const fs = require("fs");
 exports.run = (Saurien, message, params) => {

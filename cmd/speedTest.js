@@ -1,3 +1,7 @@
+//Saurien is a easy usage discord bot
+//This file updated in 24.06.2019
+//by Radiaction
+
 const Discord = require('discord.js')
 const os = require('os')
 var speedTest = require('speedtest-net');
