@@ -1,5 +1,5 @@
 //Saurien is a easy usage discord bot
-//This file updated in 05.05.2019
+//This file updated in 05.06.2020
 //by Radiaction
 
 const Discord = require('discord.js');
@@ -20,13 +20,13 @@ exports.run = (Saurien, message, params) => {
     .setAuthor(message.guild.name, message.guild.iconURL)
     .addField('Server name:', message.guild.name)
     .addField('Server ID:', message.guild.id)
-    .addField('Main Channel:', message.guild.defaultChannel)
     .addField('Server area:', message.guild.region)
     .addField('Number of members:', message.guild.memberCount)
     .addField('Owner:', message.guild.owner + ' (' + message.guild.ownerID + ')')
     .addField('Number of channels:', message.guild.channels.size)
     .addField('Creation date:', message.guild.createdAt)
-    return message.channel.sendEmbed(server);
+	console.log("serverInfo Commands Used By" + message.author.username)
+    return message.channel.send(server);
     }
 };
 
