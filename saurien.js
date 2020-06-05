@@ -18,9 +18,68 @@ const log = message => {
   console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] ${message}`);
 };
 
-["command"].forEach(handler => {
-    require(`./console/${handler}`)(Saurien)
-})
+Saurien.commands = new Discord.Collection();
+Saurien.aliases = new Discord.Collection();
+fs.readdir('./cmd/', (err, files) => {
+  if (err) console.error(err);
+  log(`Commands Loading ${files.length}`);
+  files.forEach(f => {
+    let props = require(`./cmd/${f}`);
+    log(`${props.help.name}.`);
+    Saurien.commands.set(props.help.name, props);
+  });
+});
+
+Saurien.reload = command => {
+  return new Promise((resolve, reject) => {
+    try {
+      delete require.cache[require.resolve(`./cmd/${command}`)];
+      let cmd = require(`./cmd/${command}`);
+      Saurien.commands.delete(command);
+      Saurien.aliases.forEach((cmd, alias) => {
+        if (cmd === command) Saurien.aliases.delete(alias);
+      });
+      Saurien.commands.set(command, cmd);
+      cmd.conf.aliases.forEach(alias => {
+        Saurien.aliases.set(alias, cmd.help.name);
+      });
+      resolve();
+    } catch (e){
+      reject(e);
+    }
+  });
+};
+
+Saurien.load = command => {
+  return new Promise((resolve, reject) => {
+    try {
+      let cmd = require(`./cmd/${command}`);
+      Saurien.commands.set(command, cmd);
+      cmd.conf.aliases.forEach(alias => {
+        Saurien.aliases.set(alias, cmd.help.name);
+      });
+      resolve();
+    } catch (e){
+      reject(e);
+    }
+  });
+};
+
+Saurien.unload = command => {
+  return new Promise((resolve, reject) => {
+    try {
+      delete require.cache[require.resolve(`./cmd/${command}`)];
+      let cmd = require(`./cmd/${command}`);
+      Saurien.commands.delete(command);
+      Saurien.aliases.forEach((cmd, alias) => {
+        if (cmd === command) Saurien.aliases.delete(alias);
+      });
+      resolve();
+    } catch (e){
+      reject(e);
+    }
+  });
+};
 
 //Reply Fliter
 Saurien.on('message', msg => {
