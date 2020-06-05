@@ -63,6 +63,10 @@ node saurien
 
 enjoy it :)
 
+## Remind
+
+You need to get youtube data api v3 key to use youtube command. Otherwise the bot console will fail every time youtube command is used.
+
 ## Credits
 
  * Radiaction (Devloper)
