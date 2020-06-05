@@ -1,5 +1,5 @@
 //Saurien is a easy usage discord bot
-//This file updated in 05.05.2019
+//This file updated in 05.06.2020
 //by Radiaction
 
 const Discord = require('discord.js');
@@ -14,7 +14,8 @@ module.exports.run = async (Saurien, message, args) => {
   .setDescription(`Survey started by ${message.author.username}`);
 
   return message.channel.send(embed).then(message.delete())
-
+  console.log("survey Commands Used By" + message.author.username)
+  
   .then(function (message, str) {
        message.react("✅")
        message.react("⛔")

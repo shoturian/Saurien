@@ -1,5 +1,5 @@
 //Saurien is a easy usage discord bot
-//This file updated in 05.05.2019
+//This file updated in 05.06.2020
 //by Radiaction
 
 const Discord = require('discord.js');
@@ -12,6 +12,7 @@ exports.run = (saurien, message) => {
             length: 12,
             charset: 'alphabetic'
 }))
+console.log("randomPassword Commands Used By" + message.author.username)
 };
 
 exports.conf = {

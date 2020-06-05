@@ -30,11 +30,8 @@ Host: **${data.server.host}** (Closest result)
 Location: **${data.server.country}**,**${data.client.country}**
 Isp location: **${data.server.location}**
 Isp: **${data.server.sponsor}** (Closest result)`)
-  message.channel.send(embed)
-});
-
-    test.on('error', err => {
-  console.log(err);
+console.log("speedTest Commands Used By" + message.author.username)
+message.channel.send(embed)
 });
 }
 

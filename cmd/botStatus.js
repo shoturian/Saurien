@@ -40,6 +40,7 @@ exports.run = function (Saurien, message, params, cmd) {
         .addField('🏓 Bot Ping', `${(Saurien.ping).toFixed(0)} ms`, true)       
         .addField(`:construction_worker: Devlopers`, `${devloper}`, true)
 		.addField(`:construction_worker: Co Devlopers`, `${coDevloper}`, true)
+			console.log("botStatus Commands Used By" + message.author.username)
     message.channel.send({ embed: embed })
 };
 

@@ -1,5 +1,5 @@
 //Saurien is a easy usage discord bot
-//This file updated in 05.05.2019
+//This file updated in 05.06.2020
 //by Radiaction
 
 const Discord = require('discord.js');
@@ -20,7 +20,8 @@ exports.run = (Saurien, message) => {
     .setTimestamp()
     .setAuthor(message.author.username, message.author.avatarURL)
     .setDescription(`Link: ${invite}`);
-    return message.author.sendEmbed(invite1)
+    return message.author.send(invite1)
+	console.log("supportServer Commands Used By" + message.author.username)
 };
 
 exports.conf = {

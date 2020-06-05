@@ -1,5 +1,5 @@
 //Saurien is a easy usage discord bot
-//This file updated in 05.05.2019
+//This file updated in 05.06.2020
 //by Radiaction
 
 const Discord = require('discord.js');
@@ -11,6 +11,7 @@ exports.run = (Saurien, message) => {
           color: 0xD97634,
 		  description: "**Your ping: **" + (new Date().getTime() - message.createdTimestamp) + "ms"
             }});
+		    console.log("ping Commands Used By" + message.author.username)
 };
 
 exports.conf = {

@@ -1,5 +1,5 @@
 //Saurien is a easy usage discord bot
-//This file updated in 05.05.2019
+//This file updated in 05.06.2020
 //by Radiaction
 
 const Discord = require('discord.js');
@@ -14,7 +14,8 @@ exports.run = (Saurien, message, args) => {
     const embed = new Discord.RichEmbed()
     .setColor(0xD97634)
     .setDescription(`:postal_horn: **Notice ;**\n${error1}`)
-    return guild.channels.get(notice.id).sendEmbed(embed);
+	console.log("notice Commands Used By" + message.author.username)
+    return guild.channels.get(notice.id).send(embed);
 };
 
 exports.conf = {

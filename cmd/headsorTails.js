@@ -1,5 +1,5 @@
 //Saurien is a easy usage discord bot
-//This file updated in 23.06.2019
+//This file updated in 05.06.2020
 //by Radiaction
 
 const Discord = require('discord.js');
@@ -27,6 +27,7 @@ exports.run = function(Saurien, message) {
 		const embed2 = new Discord.RichEmbed()
 		.setColor(0xf4b942)
 		.setDescription("**Tails**")
+			console.log("headsorTails Commands Used By" + message.author.username)
 		message.channel.send(embed2);
 
 	}

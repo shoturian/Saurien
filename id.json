@@ -3,10 +3,9 @@
 "coDevloper":"-",
 "botName":"Saurien",
 "invite":"Your discord server invite link",
-"yt":"Your youtube api v3 token",
 "botname":"Saurien",
 "prefix":"#",
 "activity":"Enter bot activity",
-"release":"0.1.4",
+"release":"0.1.5",
 "saurienID":"Enter your discord bot token"
 }

@@ -18,6 +18,7 @@ exports.run = (Saurien, message) => {
                 color: 0xD97634,
                 description: `Unnecessary commands removed\nSome commands fixed"`
               }});
+			  console.log("releaseNotes Commands Used By" + message.author.username)
 };
 
 exports.conf = {

@@ -1,5 +1,5 @@
 //Saurien is a easy usage discord bot
-//This file updated in 05.05.2019
+//This file updated in 05.06.2020
 //by Radiaction
 
 const Discord = require("discord.js")
@@ -13,6 +13,7 @@ exports.run = (Saurien, message) => {
       embed.setColor('#D97634')
       embed.setTitle('Our services')
       embed.setDescription(`I am serving **${Saurien.guilds.size}** server in Discord`)
+	  console.log("ourServices Commands Used By" + message.author.username)
     }
     message.channel.send({embed: embed});
   }

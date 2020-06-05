@@ -1,5 +1,5 @@
 //Saurien is a easy usage discord bot
-//This file updated in 05.05.2019
+//This file updated in 05.06.2020
 //by Radiaction
 
 const Discord = require("discord.js");
@@ -35,6 +35,7 @@ module.exports.run = async (Saurien, message, args) => {
        .setColor("#f4e842");
      await  message.channel.send(embed);
 }
+console.log("luckWheel Commands Used By" + message.author.username)
 };
 
 exports.conf = {

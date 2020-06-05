@@ -14,7 +14,7 @@ let member = message.guild.member(message.mentions.users.first());
       .setColor("0x00AE86")
       .setDescription("**"+message.author.username+"** Slapped the "+"**"+member+"**")
       .setImage("https://media.giphy.com/media/IYcXTDme1ZPMI/giphy.gif");
-
+  	  console.log("slap Commands Used By" + message.author.username);
     message.channel.send(slap);
   };
 

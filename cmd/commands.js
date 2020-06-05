@@ -25,17 +25,17 @@ exports.run = (Saurien, message, params) => {
 				{
                 name: ":book: **Personal Commands**",
 				inline: true,
-                value: `${prefix}userInformation\n${prefix}survey\n${prefix}randomPassword\n${prefix}serverInfo\n${prefix}yt\n${prefix}avatar\n${prefix}speedTest`
+                value: `${prefix}userInformation\n${prefix}survey\n${prefix}randomPassword\n${prefix}serverInfo\n${prefix}avatar\n${prefix}speedTest`
 			  },
 			  {
 				name: ":gear: **Bot Commands**",
 				inline: true,
-				value: `${prefix}commands\n${prefix}releaseNotes\n${prefix}botStatus\n${prefix}ping\n${prefix}ourServices\n${prefix}write\n${prefix}notice\n${prefix}supportServer\n${prefix}textClean`
+				value: `${prefix}commands\n${prefix}releaseNotes\n${prefix}botStatus\n${prefix}ping\n${prefix}ourServices\n${prefix}write\n${prefix}notice\n${prefix}supportServer`
 			  },
 			  {
                 name: ":tada: **Fun Commands**",
 				inline: true,
-                value: `${prefix}ascii\n${prefix}mcAchievement\n${prefix}quiz\n${prefix}punch** (New punch gif added)**\n${prefix}slap\n${prefix}twerk\n${prefix}luckWheel\n${prefix}headsorTails`
+                value: `${prefix}ascii\n${prefix}punch** (New punch gif added)**\n${prefix}slap\n${prefix}twerk\n${prefix}luckWheel\n${prefix}headsorTails`
               },
               {
                 name: "Release",
@@ -49,6 +49,7 @@ exports.run = (Saurien, message, params) => {
           }
         });
 	    message.react("👍")
+			console.log("commands Commands Used By" + message.author.username)
 }};
 exports.conf = {
   enabled: true,
