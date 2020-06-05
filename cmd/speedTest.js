@@ -29,7 +29,7 @@ Your internet isp: **${data.client.isp}**
 Host: **${data.server.host}** (Closest result)
 Location: **${data.server.country}**,**${data.client.country}**
 Isp location: **${data.server.location}**
-Isp Sponsor: **${data.server.sponsor}** (Closest result)`)
+Isp: **${data.server.sponsor}** (Closest result)`)
   message.channel.send(embed)
 });
 
