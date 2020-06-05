@@ -11,12 +11,15 @@ var botName = id.botName;
 var release = id.release;
 var devloper = id.devloper;
 var coDevloper = id.coDevloper
+var activity = id.activity
 
 module.exports = Saurien => {
-  Saurien.user.setActivity('GAME HERE', { type: 'WATCHING' })
-  console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] Activating The Bot!`);
-  console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] Bot Activated!`);
-  console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] ${botName} Release ${release} By ${devloper} and Co Devloper ${coDevloper}`);
-				  
-				  
+    console.log(`\u001b[31m`, `------------[ ${botName} | ${devloper} ]------------`)
+    console.log(`\u001b[32 m`, `[${botName}] Stats | ${Saurien.users.size} users, ${Saurien.channels.size} channels`)
+    console.log(`\u001b[32 m`, `[${botName}] Invite | https://discordapp.com/oauth2/authorize?client_id=${Saurien.user.id}&scope=bot&permissions=8`)
+    console.log(`\u001b[32 m`, `[${botName}] ${botName} connected to the api and is online!`)
+    console.log(`\u001b[31m`, `------------[ ${botName} | ${devloper} ]------------`)
+    Saurien.user.setActivity(`${activity}`, {
+        type: "LISTENING"			  
+    })  
 };
