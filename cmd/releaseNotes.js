@@ -1,5 +1,5 @@
 //Saurien is a easy usage discord bot
-//This file updated in 24.06.2019
+//This file updated in 05.06.2020
 //by Radiaction
 
 const Discord = require('discord.js');
@@ -16,7 +16,7 @@ exports.run = (Saurien, message) => {
                     icon_url: ""
                   },
                 color: 0xD97634,
-                description: `New 3 commands:\n-headsorTails\n-dice\n-speedTest"`
+                description: `Unnecessary commands removed\nSome commands fixed"`
               }});
 };
 

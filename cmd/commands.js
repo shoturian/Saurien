@@ -1,5 +1,5 @@
 //Saurien is a easy usage discord bot
-//This file updated in 05.05.2019
+//This file updated in 05.06.2020
 //by Radiaction
 
 const Discord = require('discord.js');
@@ -25,7 +25,7 @@ exports.run = (Saurien, message, params) => {
 				{
                 name: ":book: **Personal Commands**",
 				inline: true,
-                value: `${prefix}userInformation\n${prefix}survey\n${prefix}appeal\n${prefix}randomPassword\n${prefix}serverInfo\n${prefix}translate\n${prefix}yt\n${prefix}avatar**(NEW)**\n${prefix}speedTest**(NEW)**`
+                value: `${prefix}userInformation\n${prefix}survey\n${prefix}randomPassword\n${prefix}serverInfo\n${prefix}yt\n${prefix}avatar\n${prefix}speedTest`
 			  },
 			  {
 				name: ":gear: **Bot Commands**",
@@ -35,7 +35,7 @@ exports.run = (Saurien, message, params) => {
 			  {
                 name: ":tada: **Fun Commands**",
 				inline: true,
-                value: `${prefix}dogNames\n${prefix}catNames\n${prefix}ascii\n${prefix}mcAchievement\n${prefix}quiz\n${prefix}punch\n${prefix}slap\n${prefix}twerk\n${prefix}luckWheel\n${prefix}headsorTails**(NEW)**`
+                value: `${prefix}ascii\n${prefix}mcAchievement\n${prefix}quiz\n${prefix}punch** (New punch gif added)**\n${prefix}slap\n${prefix}twerk\n${prefix}luckWheel\n${prefix}headsorTails`
               },
               {
                 name: "Release",
