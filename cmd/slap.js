@@ -15,7 +15,7 @@ let member = message.guild.member(message.mentions.users.first());
       .setDescription("**"+message.author.username+"** Slapped the "+"**"+member+"**")
       .setImage("https://media.giphy.com/media/IYcXTDme1ZPMI/giphy.gif");
 
-    message.channel.sendEmbed(slap);
+    message.channel.send(slap);
   };
 
 exports.conf = {
