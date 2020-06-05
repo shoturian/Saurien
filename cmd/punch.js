@@ -13,7 +13,7 @@ let member = message.guild.member(message.mentions.users.first());
       .setTitle("Someone Punched")
       .setColor("0x00AE86")
       .setDescription("**"+message.author.username+"** Punched the "+"**"+member+"**")
-      .setImage("https://media.giphy.com/media/utNbq8hMRng7S/giphy.gif");
+      .setImage("https://media.giphy.com/media/9vAHtLuL0FU1a/source.gif");
 
     message.channel.sendEmbed(punch);
   };
