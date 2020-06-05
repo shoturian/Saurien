@@ -1,5 +1,5 @@
 //Saurien is a easy usage discord bot
-//This file updated in 05.05.2019
+//This file updated in 05.06.2020
 //by Radiaction
 
 const id = require("../id.json");
@@ -19,8 +19,6 @@ exports.run = function (Saurien, message, args, args2, cmd) {
     if (!args.join(' ')) {
         return message.channel.send({ embed: embed19 })
     }
-    message.channel.send("Searching. " + args.join(' '))
-    message.channel.send("Searching.. " + args.join(' '))
     message.channel.send("Searching... " + args.join(' '))
     youTube.search(args.join(' '), 1, function (error, result) {
         if (error) {
