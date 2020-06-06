@@ -14,14 +14,14 @@ exports.run = (Saurien, message) => {
     .setTimestamp()
     .setAuthor(message.author.username, message.author.avatarURL)
     .setDescription('Check Your DM. :postbox:');
-    message.channel.sendEmbed(invite) }
+    message.channel.send(invite) }
 	const invite1 = new Discord.RichEmbed()
     .setColor(0xD97634)
     .setTimestamp()
     .setAuthor(message.author.username, message.author.avatarURL)
-    .setDescription(`Link: ${invite}`);
+    .setDescription(`Link: ${invite}`)
     return message.author.send(invite1)
-	console.log("supportServer Commands Used By" + message.author.username)
+	console.log("supportServer Commands Used By" + message.author.username);
 };
 
 exports.conf = {

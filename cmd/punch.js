@@ -7,7 +7,7 @@ const Discord = require('discord.js');
 exports.run = (Saurien, message, args) => {
 let member = message.guild.member(message.mentions.users.first());
     if (!args[0]){
-      return message.channel.sendMessage('[:x:] | **You must write whom I will punch**');
+      return message.channel.send('[:x:] | **You must write whom I will punch**');
     }
     var punch = new Discord.RichEmbed()
       .setTitle("Someone Punched")

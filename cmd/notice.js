@@ -14,8 +14,8 @@ exports.run = (Saurien, message, args) => {
     const embed = new Discord.RichEmbed()
     .setColor(0xD97634)
     .setDescription(`:postal_horn: **Notice ;**\n${error1}`)
-	console.log("notice Commands Used By" + message.author.username)
-    return guild.channels.get(notice.id).send(embed);
+    return guild.channels.get(notice.id).send(embed)
+	console.log("notice Commands Used By" + message.author.username);
 };
 
 exports.conf = {

@@ -14,13 +14,13 @@ module.exports.run = async (Saurien, message, args) => {
   .setDescription(`Survey started by ${message.author.username}`);
 
   return message.channel.send(embed).then(message.delete())
-  console.log("survey Commands Used By" + message.author.username)
   
   .then(function (message, str) {
        message.react("✅")
        message.react("⛔")
      }).catch(function() {
   });
+    console.log("survey Commands Used By" + message.author.username)
 };
 
 exports.conf = {
