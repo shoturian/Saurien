@@ -26,7 +26,7 @@ releases can be found on [GitHub](https://github.com/Radiaction/Saurien/releases
 Before installation [Node](https://nodejs.org/en/download) and [git](https://git-scm.com/downloads)
 
 ```sh
-git clone https://github.com/Radiaction/Saurien.git
+git clone https://github.com/Eliorian/Saurien.git
 cd Saurien
 ```
 
