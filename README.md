@@ -54,11 +54,9 @@ node saurien
 ```sh
 - go to Saurien root folder
 
-- open console folder
+- open id.json
 
-- open console-log.js with notepad++ or any text editor
-
-- change the 'GAME HERE' text (example: GAME HERE to Easy Usage Bot)
+- change the 'Enter bot activity' text (example: Enter bot activity to Im Online)
 ```
 
 enjoy it :)
