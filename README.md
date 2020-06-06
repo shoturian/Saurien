@@ -65,6 +65,8 @@ enjoy it :)
 
 * Invite command automatically generates invitations. You don't need to write an invitation link anywhere on the bot
 
+* Need a bot invitation? Browse the bot console :)
+
 ## Credits
 
  * Radiaction (Devloper)
