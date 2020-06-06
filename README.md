@@ -69,7 +69,7 @@ enjoy it :)
 
 ## Credits
 
- * Radiaction (Devloper)
+ * Eliorian (Devloper)
 
 ## Copyright
 
