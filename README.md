@@ -61,6 +61,10 @@ node saurien
 
 enjoy it :)
 
+## Notes
+
+* Invite command automatically generates invitations. You don't need to write an invitation link anywhere on the bot
+
 ## Credits
 
  * Radiaction (Devloper)
