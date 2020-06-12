@@ -40,17 +40,7 @@ cd Saurien
 - change the places in the id.js (example: prefix: # to prefix: +)
 ```
 
-## Running
-
-```sh
-npm install
-
-(after installing)
-
-node saurien
-```
-
-## How To Change Bot Game
+### 2.2. How To Change Bot Game
 
 ```sh
 - go to Saurien root folder
@@ -58,6 +48,16 @@ node saurien
 - open id.json
 
 - change the 'Enter bot activity' text (example: Enter bot activity to Im Online)
+```
+
+### 3. Running
+
+```sh
+npm install
+
+(after installing)
+
+node saurien
 ```
 
 enjoy it :)
