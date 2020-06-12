@@ -13,9 +13,7 @@ Easy Usage Discord Bot
 ## Features
 - Fully open source and developable structure
 
-- There are many features
-
-- Constantly updated structure
+- Continuously updated features
 
 - Many More
 
