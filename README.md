@@ -47,7 +47,7 @@ cd Saurien
 
 - open id.json
 
-- change the 'Enter bot activity' text (example: Enter bot activity to Im Online)
+- change the 'Enter bot activity' text (example: 'Enter bot activity' to 'Im Online')
 ```
 
 ### 3. Running
