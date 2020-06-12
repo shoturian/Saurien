@@ -72,5 +72,6 @@ enjoy it :)
 
 ## Copyright
 
-Saurien is open-source software released under the MIT license. Please see
-the `LICENSE` file for details.
+Copyright (c) Eliorian. All rights reserved.
+
+Licensed under the [MIT](LICENSE.txt) license.
