@@ -37,7 +37,7 @@ cd Saurien
 
 - open the id.js with note++ or any text editor
 
-- change the places in the id.js (example: prefix: # to prefix: +)
+- change the places in the id.json (example: prefix: # to prefix: +)
 ```
 
 ### 2.2. How To Change Bot Game
