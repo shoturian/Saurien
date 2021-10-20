@@ -1,1 +1,4 @@
-<a name="commands"></a>
+[Commands] #commands
+# Commands <a name="commands"></a>
+
+Easy Usage Discord Bot
